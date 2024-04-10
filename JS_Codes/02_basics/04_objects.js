@@ -1,3 +1,5 @@
+// https://youtu.be/4lb2pXWWXJI?si=Pg92nfGJ6ej8tTZo
+
 // const instaUser = new Object() // This is Singleton object
 const instaUser = {} // This is Non-Singleton object
 
