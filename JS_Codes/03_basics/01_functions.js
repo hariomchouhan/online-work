@@ -33,4 +33,36 @@ function loginUserMessage(username = "Hariom") {
 }
 
 // console.log(loginUserMessage("Hariom"))
-console.log(loginUserMessage())
+// console.log(loginUserMessage())
+
+// Putting ... in the parameter of a function is called rest operator.
+function calculateCartPrice(val1, val2, ...nums) {
+  return nums
+}
+
+// console.log(calculateCartPrice(200, 400, 500, 2000))
+
+const user = {
+  username: "hariom",
+  // price: 999
+  prices: 999
+}
+
+function handleObject(anyObject) {
+  console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`);
+}
+
+// handleObject(user)
+// handleObject({
+//   username: "Varsha",
+//   price: 999
+// })
+
+const myNewArray = [200, 300, 400, 500]
+
+function returnSecondValue(getArray) {
+  return getArray[1]
+}
+
+// console.log(returnSecondValue(myNewArray))
+console.log(returnSecondValue([200, 400, 500, 660]))
